@@ -1,54 +1,287 @@
 body{
-    
-    font-family: Helvetica, Arial, sans-serif;
-    color: rgb(250, 196, 241);
-    background-color: #000000;
-}
-
-.header{
-    text-align: center;
-    font-size: 1rem;
-}
-
-
-.item1{
-    grid-column-start: 1;
-    grid-column-end: 4;
+ font-family: Roboto,-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-
-.image_talma{
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-}
-
-
-#container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    padding: 10px;
-}
-
-#container>div{
-
-    width: 30;
-    height: 30vh;
-    color: white;
-
-}
-
-
-.box{
-
-    padding: 50px;
+.content {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    background-color: rgb(120, 218, 177);
+    width: 100%;
+    
+  }
+
+  
+  .logo{
+      width: 8%;
+    
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; 
+  
+  }
+  
+  .link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+  }
+
+
+.intro{
+    background-color: rgb(245, 160, 186);
+    padding: 50px;
+    
+}
+.titre{
+    font-size: 5rem;
+    margin-left: 38%;
+    font-weight: 500;
+    color: rgb(155, 84, 105);
+
+}
+
+.visage_japon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 5%;
+
+}
+
+.texte_intro{
+    font-size: 3rem;
     text-align: center;
-    font-size: 1.5rem;
-    font-weight: lighter;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
     color: white;
+   
+
+}
+
+
+.palette{
+
+    background-color: rgb(221, 160, 250);
+    padding: 50px;
+    
+    
+
+}
+
+.texte_projects{
+    font-size: 5rem;
+    font-weight: 400;
+    color: rgb(129, 82, 151);
+    
+    
+}
+
+.chat{
+    background-color: white;
+    padding: 5%;
+
+
+}
+
+.fille{
+    background-color: white;
+    padding: 5%;
+
+}
+
+.voiture{
+    background-color: white;
+    padding: 5%;
+
+}
+
+.jaune{
+    background-color: white;
+    padding: 5%;
+
+}
+
+.roses{
+    background-color: white;
+    padding: 5%;
+
+}
+
+.grec{
+    background-color: white;
+    padding: 5%;
+
+}
+
+.papaye{
+    background-color: white;
+    padding: 5%;
+
+}
+
+.nue{
+    background-color: white;
+    padding: 5%;
+
+}
+
+.dance{
+    background-color: white;
+    padding: 5%;
+
+}
+
+.trio{
+    background-color: rgb(109, 228, 208);
+    padding: 50px;
+}
+
+.texte_illustration{
+    font-size: 5rem;
+    font-weight: 400;
+    color: rgb(76, 153, 140);
+    text-align: center;
+}
+
+.texte_petit{
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+.orange{
+
+    margin-left: 17%;
+    background-color:  rgb(109, 228, 208);
+    padding: 20px;
+    
+}
+
+
+
+.aliens{
+    background-color:  rgb(109, 228, 208);
+    padding: 20px;
+}
+
+.images_news{
+    
+    background-color: rgb(243, 146, 203);
+    padding: 50px;
+}
+.texte_news{
+    font-size: 5rem;
+    font-weight: 400;
+    color: rgb(155, 88, 127);
+    
+}
+.ornement{
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
+
+.plage{
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
+
+.world{
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
+
+input[type=button] {
+    background-color: rgb(183, 135, 238);
+    color: white;
+    border: none;
+    width: 386px;
+    height: 60px;
+    font-size: 2rem;
+    font-family: 'PT Sans';
+    margin-left: 50%;
+    margin-top: 16%;
+
+  }
+  
+  input[type=button]:hover {
+    opacity: 0.8;
+    
+  }
+
+
+
+
+.News_letter_footer{
+    
+    color: white;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-size: 25px;
+    
+}
+
+input[type=text] {
+    width: 20vw;
+    height: 50px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'PT Sans';
+    margin-bottom: 15px;
+  }
+  
+ 
+ 
+ 
+  input[type=submit] {
+    background-color:  rgb(183, 135, 238);
+    color: white;
+    border: none;
+    width: 15vw;
+    height: 50px;
+    text-align: center;
+    font-family: 'PT Sans';
+    font-size: 1.5rem;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+.footer{
+    background-color: rgb(120, 218, 177);
+    padding: 50px 5px ;
+    display: flex;
+    width: 98.5vw;
+}
+
+
+
+.contact_footer{
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.news_grp{
+margin-left: 20%;
+
 }
